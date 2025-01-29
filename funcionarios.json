@@ -1,14 +1,28 @@
-[
-  {
-    "nome": "Marcus",
-    "idade": 26,
-    "cpf": "072.291.253-67",
-    "cargo": "Professor de Inglês"
-  },
-  {
-    "nome": "Henrique",
-    "idade": 30,
-    "cpf": "493.234.546-78",
-    "cargo": "Professor de Inglês"
-  }
-]
+{
+  "professores": [
+    {
+      "nome": "Marcus",
+      "idade": 26,
+      "cpf": "072.291.253-67",
+      "id": 1,
+      "cargo": "Professor de Inglês"
+    },
+    {
+      "nome": "Henrique",
+      "idade": 30,
+      "cpf": "493.234.546-78",
+      "id": 2,
+      "cargo": "Professor de Administração"
+    }
+  ],
+  "vendedores": [
+    {
+      "nome": "Ricardo",
+      "idade": 40,
+      "cpf": "123.430.120-20",
+      "id": 3,
+      "cargo": "Vendedor"
+    }
+  ]
+}
+

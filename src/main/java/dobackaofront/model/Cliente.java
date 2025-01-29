@@ -9,7 +9,7 @@ public class Cliente extends Usuario {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "Nome: " + nome +
                 "\nIdade: " + idade +
                 "\nCpf: " + cpf +
