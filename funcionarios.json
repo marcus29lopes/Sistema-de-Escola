@@ -1,0 +1,14 @@
+[
+  {
+    "nome": "Marcus",
+    "idade": 26,
+    "cpf": "072.291.253-67",
+    "cargo": "Professor de Inglês"
+  },
+  {
+    "nome": "Henrique",
+    "idade": 30,
+    "cpf": "493.234.546-78",
+    "cargo": "Professor de Inglês"
+  }
+]
