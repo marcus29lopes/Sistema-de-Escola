@@ -1,9 +1,9 @@
-package dobackaofront.model;
+package sistemaEscola.model;
 
 public abstract class Usuario {
-    String nome;
-    int idade;
-    String cpf;
+    private String nome;
+    private int idade;
+    private String cpf;
 
     public Usuario(String nome, int idade, String cpf){
         this.nome = nome;
@@ -27,8 +27,13 @@ public abstract class Usuario {
         this.idade = idade;
     }
 
+    public String getCpf() {
+        return cpf;
+    }
 
-
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
 }
 
 

@@ -1,8 +1,8 @@
-package dobackaofront.view;
+package sistemaEscola.view;
 
 import java.util.Scanner;
 
-import static dobackaofront.view.FuncionarioInterface.menuFuncionario;
+import static sistemaEscola.view.FuncionarioInterface.menuFuncionario;
 
 public class UsuarioInterface {
 

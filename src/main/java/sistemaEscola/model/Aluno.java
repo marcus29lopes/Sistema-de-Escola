@@ -1,8 +1,8 @@
-package dobackaofront.model;
+package sistemaEscola.model;
 
 public class Aluno extends Usuario {
-    int matricula;
-    String curso;
+    private int matricula;
+    private String curso;
 
     public Aluno(String nome, int idade, String cpf, int matricula, String curso){
         super(nome, idade, cpf);

@@ -1,7 +1,7 @@
-package dobackaofront.model;
+package sistemaEscola.model;
 
 public class Cliente extends Usuario {
-    int numeroCadastro;
+    private int numeroCadastro;
 
     public Cliente(String nome, int idade, String cpf, int numeroCadastro) {
         super(nome, idade, cpf);
@@ -10,9 +10,9 @@ public class Cliente extends Usuario {
 
     @Override
     public String toString() {
-        return "Nome: " + nome +
-                "\nIdade: " + idade +
-                "\nCpf: " + cpf +
+        return "Nome: " + getNome() +
+                "\nIdade: " + getIdade() +
+                "\nCpf: " + getCpf() +
                 "\nNumero de Cadastro: " + numeroCadastro;
     }
 }

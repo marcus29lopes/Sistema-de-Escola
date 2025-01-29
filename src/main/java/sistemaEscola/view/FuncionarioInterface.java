@@ -1,6 +1,8 @@
-package dobackaofront.view;
+package sistemaEscola.view;
 
 import java.util.Scanner;
+
+import static sistemaEscola.controller.ProcurarId.procurarId;
 
 public class FuncionarioInterface {
 
@@ -18,8 +20,10 @@ public class FuncionarioInterface {
             case 1:
                 break;
             case 2:
-                System.out.println("Digite o ID do funcionar que deseja verificar: ");
-                int id = sc.nextInt();
+                System.out.println("Digite o ID do funcionario que deseja verificar: ");
+                procurarId();
+
+
         }
     }
 }

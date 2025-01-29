@@ -1,4 +1,4 @@
-package dobackaofront.DAO;
+package sistemaEscola.DAO;
 
 public class DAO {
 
