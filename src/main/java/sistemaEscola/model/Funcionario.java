@@ -9,4 +9,21 @@ public class Funcionario extends Usuario {
         this.id = id;
         this.cargo = cargo;
     }
+
+    public int getId() {
+        return id;
+    }
+    public String getCargo() {
+        return cargo;
+    }
+
+    @Override
+    public String toString() {
+        return "Nome: " + getNome() +
+                "\nIdade: " + getIdade() +
+                "\nCpf: " + getCpf() +
+                "\nid: " + getId() +
+                "\ncargo: " + getCargo();
+    }
+
 }

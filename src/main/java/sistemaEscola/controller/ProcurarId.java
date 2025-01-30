@@ -1,7 +1,7 @@
 package sistemaEscola.controller;
 
 
-import static sistemaEscola.services.IdService.buscarUsuarioPorId;
+import static sistemaEscola.services.IdService.buscarFuncionarioPorId;
 
 public class ProcurarId {
 
@@ -9,7 +9,7 @@ public class ProcurarId {
         if (id == 0) {
             System.out.println("não existe id de valor 0");
         } else {
-            buscarUsuarioPorId(id);
+            buscarFuncionarioPorId(id);
         }
     }
 }

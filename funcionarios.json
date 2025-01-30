@@ -1,5 +1,4 @@
-{
-  "professores": [
+ [
     {
       "nome": "Marcus",
       "idade": 26,
@@ -13,9 +12,7 @@
       "cpf": "493.234.546-78",
       "id": 2,
       "cargo": "Professor de Administração"
-    }
-  ],
-  "vendedores": [
+    },
     {
       "nome": "Ricardo",
       "idade": 40,
@@ -24,5 +21,4 @@
       "cargo": "Vendedor"
     }
   ]
-}
 

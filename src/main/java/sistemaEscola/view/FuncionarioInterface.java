@@ -5,7 +5,7 @@ import java.util.Scanner;
 import static sistemaEscola.controller.ProcurarId.procurarId;
 
 public class FuncionarioInterface {
-   static Scanner sc = new Scanner(System.in);
+    static Scanner sc = new Scanner(System.in);
 
     static void menuFuncionario() {
 
@@ -21,17 +21,20 @@ public class FuncionarioInterface {
                 break;
             case 2:
                 System.out.println("Digite o ID do funcionario que deseja verificar: ");
-                idValido();
+                verificarId();
 
 
         }
     }
-    static void idValido(){
-        try{
-          int id =  sc.nextInt();
-             procurarId(id);
+
+    static void verificarId() {
+        try {
+            int id = sc.nextInt();
+            procurarId(id);
+
         } catch (Exception e) {
             System.out.println("Não é um numero");
+            e.printStackTrace();
 
         }
     }
